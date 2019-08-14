@@ -1,0 +1,22 @@
+//write a java programme which illustrate the concept of VECTOR and dynamic object type casting.
+//VectorDemo.java
+import java.util.*;
+class vector
+{
+	void operations()
+	{
+       Vector vt=new Vector();
+	   System.out.println("Content of v="+vt);
+	   System.out.println("Capacity of v="+vt.capacity());
+	
+	}
+
+}
+class VectorDemo
+{
+	 static public void main(String args[])
+	{
+	Vector t = new Vector();
+	      t.operations();
+	}
+}

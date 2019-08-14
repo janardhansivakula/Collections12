@@ -1,0 +1,16 @@
+//DispDateDemo.java
+import java.util.*;
+import java.io.*;
+class DispDateDemo
+{
+	public static void main(String args[])
+	{
+	    Date d = new Date();
+		System.out.println("-------------------------------------");
+		System.out.println("Date is="+d);
+		System.out.println("Hours="+d.hours());
+		System.out.println("Minutes="+d.minutes());
+		System.out.println("seconds="+d.seconds());
+		System.out.println("-------------------------------------");
+	}
+}
